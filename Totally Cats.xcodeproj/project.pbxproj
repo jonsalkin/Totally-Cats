@@ -8,17 +8,45 @@
 
 /* Begin PBXBuildFile section */
 		2C346E2E2A4542FF00CBEBC8 /* Totally_CatsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C346E2D2A4542FF00CBEBC8 /* Totally_CatsApp.swift */; };
-		2C346E302A4542FF00CBEBC8 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C346E2F2A4542FF00CBEBC8 /* ContentView.swift */; };
+		2C346E302A4542FF00CBEBC8 /* CatView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C346E2F2A4542FF00CBEBC8 /* CatView.swift */; };
 		2C346E322A45430300CBEBC8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2C346E312A45430300CBEBC8 /* Assets.xcassets */; };
 		2C346E352A45430400CBEBC8 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2C346E342A45430400CBEBC8 /* Preview Assets.xcassets */; };
+		2C346E402A45453800CBEBC8 /* LoadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C346E3F2A45453800CBEBC8 /* LoadingView.swift */; };
+		2C346E442A4545FC00CBEBC8 /* CatViewViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C346E432A4545FC00CBEBC8 /* CatViewViewModel.swift */; };
+		2C346E462A45758F00CBEBC8 /* CatFactsManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C346E452A45758F00CBEBC8 /* CatFactsManager.swift */; };
+		2C346E4A2A46430600CBEBC8 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C346E492A46430500CBEBC8 /* Extensions.swift */; };
+		2C346E4C2A46456100CBEBC8 /* Meows.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C346E4B2A46456100CBEBC8 /* Meows.swift */; };
+		2C6EC0E72A46603600D06544 /* meow1.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 2C6EC0E62A46603600D06544 /* meow1.mp3 */; };
+		2C6EC0E92A46604700D06544 /* meow2.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 2C6EC0E82A46604700D06544 /* meow2.mp3 */; };
+		2C6EC0EB2A46699A00D06544 /* meow3.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 2C6EC0EA2A46699A00D06544 /* meow3.mp3 */; };
+		2C6EC0ED2A4669AD00D06544 /* meow4.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 2C6EC0EC2A4669AD00D06544 /* meow4.mp3 */; };
+		2C6EC0EF2A4669BC00D06544 /* meow5.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 2C6EC0EE2A4669BC00D06544 /* meow5.mp3 */; };
+		2C6EC0F12A4669CC00D06544 /* meow6.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 2C6EC0F02A4669CC00D06544 /* meow6.mp3 */; };
+		2C6EC0F32A4669DA00D06544 /* meow7.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 2C6EC0F22A4669DA00D06544 /* meow7.mp3 */; };
+		2C6EC0F52A468AB900D06544 /* WelcomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C6EC0F42A468AB900D06544 /* WelcomeView.swift */; };
+		2C6EC0F72A468AE400D06544 /* WelcomeViewViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C6EC0F62A468AE400D06544 /* WelcomeViewViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		2C346E2A2A4542FF00CBEBC8 /* Totally Cats.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Totally Cats.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2C346E2D2A4542FF00CBEBC8 /* Totally_CatsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Totally_CatsApp.swift; sourceTree = "<group>"; };
-		2C346E2F2A4542FF00CBEBC8 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		2C346E2F2A4542FF00CBEBC8 /* CatView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatView.swift; sourceTree = "<group>"; tabWidth = 4; };
 		2C346E312A45430300CBEBC8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2C346E342A45430400CBEBC8 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		2C346E3F2A45453800CBEBC8 /* LoadingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingView.swift; sourceTree = "<group>"; };
+		2C346E432A4545FC00CBEBC8 /* CatViewViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatViewViewModel.swift; sourceTree = "<group>"; };
+		2C346E452A45758F00CBEBC8 /* CatFactsManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatFactsManager.swift; sourceTree = "<group>"; };
+		2C346E492A46430500CBEBC8 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		2C346E4B2A46456100CBEBC8 /* Meows.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Meows.swift; sourceTree = "<group>"; };
+		2C6EC0E62A46603600D06544 /* meow1.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = meow1.mp3; path = "Totally Cats/Assets.xcassets/meow1.dataset/meow1.mp3"; sourceTree = "<group>"; };
+		2C6EC0E82A46604700D06544 /* meow2.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = meow2.mp3; path = "Totally Cats/Assets.xcassets/meow2.dataset/meow2.mp3"; sourceTree = "<group>"; };
+		2C6EC0EA2A46699A00D06544 /* meow3.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = meow3.mp3; path = "Totally Cats/Assets.xcassets/meow3.dataset/meow3.mp3"; sourceTree = "<group>"; };
+		2C6EC0EC2A4669AD00D06544 /* meow4.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = meow4.mp3; path = "Totally Cats/Assets.xcassets/meow4.dataset/meow4.mp3"; sourceTree = "<group>"; };
+		2C6EC0EE2A4669BC00D06544 /* meow5.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = meow5.mp3; path = "Totally Cats/Assets.xcassets/meow5.dataset/meow5.mp3"; sourceTree = "<group>"; };
+		2C6EC0F02A4669CC00D06544 /* meow6.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = meow6.mp3; path = "Totally Cats/Assets.xcassets/meow6.dataset/meow6.mp3"; sourceTree = "<group>"; };
+		2C6EC0F22A4669DA00D06544 /* meow7.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = meow7.mp3; path = "Totally Cats/Assets.xcassets/meow7.dataset/meow7.mp3"; sourceTree = "<group>"; };
+		2C6EC0F42A468AB900D06544 /* WelcomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeView.swift; sourceTree = "<group>"; };
+		2C6EC0F62A468AE400D06544 /* WelcomeViewViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeViewViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -35,6 +63,13 @@
 		2C346E212A4542FF00CBEBC8 = {
 			isa = PBXGroup;
 			children = (
+				2C6EC0F22A4669DA00D06544 /* meow7.mp3 */,
+				2C6EC0F02A4669CC00D06544 /* meow6.mp3 */,
+				2C6EC0EE2A4669BC00D06544 /* meow5.mp3 */,
+				2C6EC0EC2A4669AD00D06544 /* meow4.mp3 */,
+				2C6EC0EA2A46699A00D06544 /* meow3.mp3 */,
+				2C6EC0E82A46604700D06544 /* meow2.mp3 */,
+				2C6EC0E62A46603600D06544 /* meow1.mp3 */,
 				2C346E2C2A4542FF00CBEBC8 /* Totally Cats */,
 				2C346E2B2A4542FF00CBEBC8 /* Products */,
 			);
@@ -51,9 +86,12 @@
 		2C346E2C2A4542FF00CBEBC8 /* Totally Cats */ = {
 			isa = PBXGroup;
 			children = (
-				2C346E2D2A4542FF00CBEBC8 /* Totally_CatsApp.swift */,
-				2C346E2F2A4542FF00CBEBC8 /* ContentView.swift */,
+				2C6EC0F82A468C4400D06544 /* Resources */,
 				2C346E312A45430300CBEBC8 /* Assets.xcassets */,
+				2C346E3E2A45435400CBEBC8 /* Other */,
+				2C346E3C2A45433000CBEBC8 /* Models */,
+				2C346E3D2A45434500CBEBC8 /* ModelViews */,
+				2C346E3B2A45431400CBEBC8 /* Views */,
 				2C346E332A45430400CBEBC8 /* Preview Content */,
 			);
 			path = "Totally Cats";
@@ -65,6 +103,50 @@
 				2C346E342A45430400CBEBC8 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		2C346E3B2A45431400CBEBC8 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				2C6EC0F42A468AB900D06544 /* WelcomeView.swift */,
+				2C346E2F2A4542FF00CBEBC8 /* CatView.swift */,
+				2C346E3F2A45453800CBEBC8 /* LoadingView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		2C346E3C2A45433000CBEBC8 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		2C346E3D2A45434500CBEBC8 /* ModelViews */ = {
+			isa = PBXGroup;
+			children = (
+				2C6EC0F62A468AE400D06544 /* WelcomeViewViewModel.swift */,
+				2C346E452A45758F00CBEBC8 /* CatFactsManager.swift */,
+				2C346E432A4545FC00CBEBC8 /* CatViewViewModel.swift */,
+			);
+			path = ModelViews;
+			sourceTree = "<group>";
+		};
+		2C346E3E2A45435400CBEBC8 /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				2C346E2D2A4542FF00CBEBC8 /* Totally_CatsApp.swift */,
+				2C346E492A46430500CBEBC8 /* Extensions.swift */,
+				2C346E4B2A46456100CBEBC8 /* Meows.swift */,
+			);
+			path = Other;
+			sourceTree = "<group>";
+		};
+		2C6EC0F82A468C4400D06544 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,6 +207,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2C6EC0F32A4669DA00D06544 /* meow7.mp3 in Resources */,
+				2C6EC0F12A4669CC00D06544 /* meow6.mp3 in Resources */,
+				2C6EC0EF2A4669BC00D06544 /* meow5.mp3 in Resources */,
+				2C6EC0ED2A4669AD00D06544 /* meow4.mp3 in Resources */,
+				2C6EC0EB2A46699A00D06544 /* meow3.mp3 in Resources */,
+				2C6EC0E92A46604700D06544 /* meow2.mp3 in Resources */,
+				2C6EC0E72A46603600D06544 /* meow1.mp3 in Resources */,
 				2C346E352A45430400CBEBC8 /* Preview Assets.xcassets in Resources */,
 				2C346E322A45430300CBEBC8 /* Assets.xcassets in Resources */,
 			);
@@ -137,8 +226,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2C346E302A4542FF00CBEBC8 /* ContentView.swift in Sources */,
+				2C346E4C2A46456100CBEBC8 /* Meows.swift in Sources */,
+				2C346E302A4542FF00CBEBC8 /* CatView.swift in Sources */,
+				2C346E4A2A46430600CBEBC8 /* Extensions.swift in Sources */,
+				2C6EC0F52A468AB900D06544 /* WelcomeView.swift in Sources */,
+				2C346E442A4545FC00CBEBC8 /* CatViewViewModel.swift in Sources */,
+				2C346E462A45758F00CBEBC8 /* CatFactsManager.swift in Sources */,
 				2C346E2E2A4542FF00CBEBC8 /* Totally_CatsApp.swift in Sources */,
+				2C346E402A45453800CBEBC8 /* LoadingView.swift in Sources */,
+				2C6EC0F72A468AE400D06544 /* WelcomeViewViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -264,16 +360,18 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Totally Cats/Preview Content\"";
+				DEVELOPMENT_TEAM = WCLJH7U85A;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -292,16 +390,18 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Totally Cats/Preview Content\"";
+				DEVELOPMENT_TEAM = WCLJH7U85A;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

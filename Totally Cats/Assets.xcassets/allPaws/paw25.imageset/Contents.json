@@ -1,0 +1,17 @@
+{
+  "images" : [
+    {
+      "filename" : "paw25.png",
+      "idiom" : "universal"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  },
+  "properties" : {
+    "localizable" : true,
+    "preserves-vector-representation" : true,
+    "template-rendering-intent" : "original"
+  }
+}
